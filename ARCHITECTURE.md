@@ -1,19 +1,8 @@
-```mermaid
-Bulk-Safe Task Framework Architecture
 
-Trigger / Controller
-        |
-        v
-   TaskService
-        |
-        v
-   TaskBuilder
-        |
-        v
-Prepared Task Records
-        |
-        v
- TaskFutureHandler
-        |
-        v
-      DML
+```mermaid
+flowchart TD
+    A[Trigger / Controller] --> B[TaskService]
+    B --> C[TaskBuilder]
+    C --> D[Prepared Task Records]
+    D --> E[TaskFutureHandler]
+    E --> F[DML Operations]
