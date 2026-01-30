@@ -1,3 +1,4 @@
+```mermaid
 Bulk-Safe Task Framework Architecture
 
 Trigger / Controller
