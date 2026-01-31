@@ -15,5 +15,4 @@ This framework demonstrates how to refactor legacy logic into
 a scalable and maintainable design.
 
 ## Author
-Iqra Masood
-Salesforce Administrator & Developer
+Iqra Masood - Salesforce Administrator & Developer
